@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleLayout">
+        <attr name="CircleType">
+            <flag name="White" value="1" />
+            <flag name="Black" value="2" />
+        </attr>
+    </declare-styleable>
+</resources>

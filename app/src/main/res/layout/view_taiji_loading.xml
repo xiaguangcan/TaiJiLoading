@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gcxia.taijiloading.widget.SquareLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/sl_square_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:orientation="horizontal">
+
+    <com.gcxia.taijiloading.widget.CircleLayout
+        android:id="@+id/cl_circle_1"
+        app:CircleType="White"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:background="@android:color/transparent" />
+
+    <com.gcxia.taijiloading.widget.CircleLayout
+        android:id="@+id/cl_circle_2"
+        app:CircleType="Black"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:background="@android:color/transparent" />
+
+</com.gcxia.taijiloading.widget.SquareLayout>
